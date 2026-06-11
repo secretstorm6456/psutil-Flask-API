@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import os, psutil, hmac, hashlib, secrets, json, datetime, argparse, sys
 from pathlib import Path
 from functools import wraps
