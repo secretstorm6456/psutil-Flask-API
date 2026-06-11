@@ -174,7 +174,7 @@ def parse_args():
     )
 
     parser.add_argument("--port", type=int, default=5500, help="Port to run the server on (default: 5500)")
-    parser.add_argument("--host", default="127.0.0.1", help="Host to bind to (default: 127.0.0.1)")
+    parser.add_argument("--host", default="0.0.0.0", help="Host to bind to (default: 0.0.0.0)")
     parser.add_argument("--debug", action="store_true", help="Run Flask in debug mode")
     parser.add_argument(
         "--no-auth",
