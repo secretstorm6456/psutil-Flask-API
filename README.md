@@ -7,7 +7,7 @@ A local REST API that exposes every [psutil](https://psutil.readthedocs.io/stabl
 ## Requirements
 
 ```bash
-pip install flask psutil
+pip install flask psutil flask_cors
 ```
 
 ---
